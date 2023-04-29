@@ -39,6 +39,7 @@ const NewsCard = ({ news }) => {
         </Card.Text>
       </Card.Body>
       <Card.Footer className="text-muted">
+        <div></div>
         <div>
           <FaEye></FaEye> {total_view}
         </div>
